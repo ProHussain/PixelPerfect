@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/filterRoot"
+    android:layout_width="wrap_content"
+    android:layout_height="70dp">
+
+    <com.quarkworks.roundedframelayout.RoundedFrameLayout
+        android:id="@+id/refresh_button_container"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:layout_centerInParent="true"
+        app:cornerRadiusTopLeft="10dp"
+        app:cornerRadiusTopRight="10dp"
+        app:cornerRadiusBottomLeft="10dp"
+        app:cornerRadiusBottomRight="10dp"
+        app:clippedBackgroundColor="@color/transparent"
+        app:borderColor="@color/transparent"
+        app:softBorderColor="@color/transparent">
+
+        <View
+            android:id="@+id/square_view"
+            android:background="@color/mainColor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/image_view_square"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"/>
+
+
+    </com.quarkworks.roundedframelayout.RoundedFrameLayout>
+
+
+    <ImageView
+        android:id="@+id/imageSelection"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:src="@drawable/ic_round_check_circle"
+        android:background="@drawable/background_unslelected"
+        android:backgroundTint="#34000000"
+        android:elevation="1dp"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

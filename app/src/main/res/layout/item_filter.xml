@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative_layout_wrapper_filter_item"
+    android:layout_width="65dp"
+    android:layout_height="82dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp">
+
+    <com.quarkworks.roundedframelayout.RoundedFrameLayout
+        android:id="@+id/refresh_button_container"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        app:cornerRadiusTopLeft="15dp"
+        app:cornerRadiusTopRight="15dp"
+        app:cornerRadiusBottomLeft="15dp"
+        app:cornerRadiusBottomRight="15dp"
+        app:clippedBackgroundColor="@color/transparent"
+        app:borderColor="@color/transparent"
+        app:softBorderColor="@color/transparent"
+        android:layout_centerInParent="true">
+
+        <com.github.siyamed.shapeimageview.RoundedImageView
+            android:id="@+id/round_image_view_filter_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:siBorderColor="@color/transparent"
+            app:siBorderType="fill"
+            app:siRadius="15dp" />
+
+    </com.quarkworks.roundedframelayout.RoundedFrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="item_width" format="integer"/>
+
+    <attr name="cs_colors" format="reference"/>
+    <attr name="cs_from_color" format="color"/>
+    <attr name="cs_hex_colors" format="reference"/>
+    <attr name="cs_steps" format="integer"/>
+    <attr name="cs_to_color" format="color"/>
+
+    <attr name="bringToFrontCurrentSticker" format="boolean"/>
+    <attr name="borderAlpha" format="integer"/>
+    <attr name="borderColor" format="color"/>
+    <attr name="borderWidth" format="dimension"/>
+    <attr name="borderlessButtonStyle" format="reference"/>
+    <attr name="showBorder" format="boolean"/>
+    <attr name="showIcons" format="boolean"/>
+
+    <attr name="mask" format="reference"/>
+    <attr name="image" format="reference"/>
+    <attr name="frame" format="reference"/>
+
+    <attr name="mScrollEnabled" format="boolean"/>
+    <attr name="mTabBackground" format="reference"/>
+    <attr name="mTabIndicatorColor" format="color"/>
+    <attr name="mTabIndicatorHeight" format="dimension"/>
+    <attr name="mTabMaxWidth" format="dimension"/>
+    <attr name="mTabMinWidth" format="dimension"/>
+    <attr name="mTabOnScreenLimit" format="integer"/>
+    <attr name="mTabPadding" format="dimension"/>
+    <attr name="mTabPaddingBottom" format="dimension"/>
+    <attr name="mTabPaddingEnd" format="dimension"/>
+    <attr name="mTabPaddingStart" format="dimension"/>
+    <attr name="mTabPaddingTop" format="dimension"/>
+    <attr name="mTabSelectedTextColor" format="color"/>
+    <attr name="mTabTextAppearance" format="reference"/>
+
+</resources>

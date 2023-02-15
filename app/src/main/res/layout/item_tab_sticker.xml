@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal"
+    android:layout_width="65dp"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:padding="7dp"
+        android:src="@drawable/ic_sticker"
+        android:background="@drawable/background_unselected"
+        android:layout_gravity="center"/>
+
+</FrameLayout>

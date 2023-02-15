@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear_layout_wrapper_adjust"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:gravity="center"
+    android:clickable="true"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutEdit"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/background_item"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/image_view_adjust_icon"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_contrast"
+            app:tint="@color/white"/>
+
+        <TextView
+            android:id="@+id/text_view_adjust_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_view_adjust_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/font"
+            android:text="editing"
+            android:textColor="@color/white"
+            android:textSize="9sp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

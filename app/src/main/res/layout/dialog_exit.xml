@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_close_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:elevation="2sp"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:background="@drawable/background_bottom">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/ic_round_warning"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/textViewExit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/imageView"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="Are you sure you want to discard changes?"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textViewDiscard"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textViewExit"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/background_selected"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="Discard Changes"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/textViewCancel"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@+id/textViewDiscard"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/font"
+            android:gravity="center"
+            android:text="Cancel"
+            android:textColor="@color/mainColor"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">@color/mainColor</color>
+    <color name="colorPrimary">@color/mainColor</color>
+    <color name="mainColor">#413794</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorLight">#252525</color>
+    <color name="BackgroundColor">#202020</color>
+    <color name="BackgroundCardColor">#191919</color>
+</resources>

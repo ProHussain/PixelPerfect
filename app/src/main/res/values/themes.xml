@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PixelPerfect" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:navigationBarColor">@color/BackgroundCardColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/BackgroundCardColor</item>
+    </style>
+
+    <style name="mRecyclerTabLayout">
+        <item name="mTabIndicatorHeight">1dp</item>
+        <item name="mTabIndicatorColor">@color/mainColor</item>
+        <item name="mTabMaxWidth">20dp</item>
+        <item name="mTabMinWidth">20dp</item>
+        <item name="mTabPadding">10dp</item>
+        <item name="mTabSelectedTextColor">@color/mainColor</item>
+    </style>
+
+    <style name="mRecyclerTabLayout.Tab" parent="@style/mRecyclerTabLayout">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="Theme_Dialog" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimate</item>
+    </style>
+
+    <style name="DialogAnimate">
+        <item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_down</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_right</item>
+    </style>
+
+    <style name="SCBSwitch" parent="@style/Theme.AppCompat.Light">
+        <item name="android:colorForeground">#c2b1b1b1</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorSwitchThumbNormal">@color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,62 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.pixelperfect'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.pixelperfect"
+        minSdk 24
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        useLibrary 'org.apache.http.legacy'
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.0'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.karumi:dexter:6.2.2'
+    implementation 'com.airbnb.android:lottie:3.5.0'
+    implementation 'org.wysaid:gpuimage-plus:2.6.3'
+    implementation 'com.github.bumptech.glide:glide:4.14.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+    implementation 'com.github.ConsultantPlus-Mobile:KeyboardHeightProvider:v1.0.0'
+    implementation 'com.github.QuarkWorks:RoundedFrameLayout-Android:0.3.7'
+    implementation 'com.github.siyamed:android-shape-imageview:0.9.3'
+    implementation 'com.steelkiwi:cropiwa:1.0.3'
+    implementation 'com.isseiaoki:simplecropview:1.1.8'
+    implementation 'com.github.flipzeus:flipzeus:0.0.1'
+    implementation 'com.github.warkiz.widget:indicatorseekbar:2.1.2'
+    //Test
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}
