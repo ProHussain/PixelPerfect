@@ -1,33 +1,43 @@
-Pixel Perfect
-Pixel Perfect is an Android Final Year Project that focuses on creating a mobile application that allows users to easily capture and edit high-quality images with pixel-perfect accuracy.
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Pixel Perfect</h1>
+	<p>Pixel Perfect is an Android Final Year Project that focuses on creating a mobile application that allows users to easily capture and edit high-quality images with pixel-perfect accuracy.</p>
 
-Features
-Capture Image: Users can easily capture images using the camera.
-HSL: Adjust hue, saturation, and luminosity of images to create the desired effect.
-Overlay: Add overlays to images for added texture and creativity.
-Filters: Choose from a variety of filters to enhance images.
-Stickers: Add stickers to images to create a personalized touch.
-Text: Add text to images with various fonts, colors, and sizes.
-Adjust: Adjust brightness, contrast, and other settings for optimal image quality.
-Crop: Crop images to focus on the desired area.
-Ratio and Square: Crop images in specific ratios or create perfect squares for social media.
-Getting Started
-Prerequisites
-Android Studio
-Android SDK
-Java Development Kit (JDK)
-Installation
-Clone the repository:
+<h2>Features</h2>
+<ul>
+	<li><strong>Capture Image</strong>: Users can easily capture images using the camera.</li>
+	<li><strong>HSL</strong>: Adjust hue, saturation, and luminosity of images to create the desired effect.</li>
+	<li><strong>Overlay</strong>: Add overlays to images for added texture and creativity.</li>
+	<li><strong>Filters</strong>: Choose from a variety of filters to enhance images.</li>
+	<li><strong>Stickers</strong>: Add stickers to images to create a personalized touch.</li>
+	<li><strong>Text</strong>: Add text to images with various fonts, colors, and sizes.</li>
+	<li><strong>Adjust</strong>: Adjust brightness, contrast, and other settings for optimal image quality.</li>
+	<li><strong>Crop</strong>: Crop images to focus on the desired area.</li>
+	<li><strong>Ratio and Square</strong>: Crop images in specific ratios or create perfect squares for social media.</li>
+</ul>
 
-bash
-Copy code
-git clone https://github.com/ProHussain/PixelPerfect.git
-Open the project in Android Studio.
+<h2>Getting Started</h2>
+<h3>Prerequisites</h3>
+<ul>
+	<li>Android Studio</li>
+	<li>Android SDK</li>
+	<li>Java Development Kit (JDK)</li>
+</ul>
 
-Build and run the project on your Android device or emulator.
+<h3>Installation</h3>
+<ol>
+	<li>Clone the repository: 
+		<pre><code>git clone https://github.com/username/PixelPerfect.git</code></pre>
+	</li>
+	<li>Open the project in Android Studio.</li>
+	<li>Build and run the project on your Android device or emulator.</li>
+</ol>
 
-Contributing
-Contributions are welcome! Please create a pull request with your suggested changes.
+<h2>Contributing</h2>
+<p>Contributions are welcome! Please create a pull request with your suggested changes.</p>
 
-License
-This project is licensed under the MIT License.
+<h2>License</h2>
+<p>This project is licensed under the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
+</body>
+</html>
