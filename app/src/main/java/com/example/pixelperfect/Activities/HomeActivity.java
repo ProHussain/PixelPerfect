@@ -77,9 +77,9 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     private void openCamera() {
-        String[] cameraPermisscions = {"android.permission.CAMERA", "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE"};
-        if (Build.VERSION.SDK_INT >= 29)cameraPermisscions=new String[]{"android.permission.CAMERA"};
-        Dexter.withContext(HomeActivity.this).withPermissions(cameraPermisscions)
+        String[] cameraPermissions = {"android.permission.CAMERA", "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE"};
+        if (Build.VERSION.SDK_INT >= 29)cameraPermissions=new String[]{"android.permission.CAMERA"};
+        Dexter.withContext(HomeActivity.this).withPermissions(cameraPermissions)
                 .withListener(new MultiplePermissionsListener() {
                     public void onPermissionsChecked(MultiplePermissionsReport multiplePermissionsReport) {
                         if (multiplePermissionsReport.areAllPermissionsGranted()) {
